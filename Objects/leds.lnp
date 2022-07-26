@@ -1,0 +1,8 @@
+--cpu Cortex-M7.fp.sp
+".\objects\main2.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\DSP\Lib\ARM\arm_cortexM7lfsp_math.lib"
+".\objects\startup_stm32f746xx.o"
+".\objects\system_stm32f7xx.o"
+--library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20010000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\leds.map" -o .\Objects\leds.axf
